@@ -2,6 +2,8 @@
 //Register.cpp
 
 #include "Register.h"
+#include <string>
+ using namespace std;
 
 string Register:: getname()
 	{

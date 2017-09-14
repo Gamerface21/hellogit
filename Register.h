@@ -3,6 +3,9 @@
 //Register.h
 #ifndef REGISTER_H
 #define REGISTER_H
+#include <string> 
+
+ using namespace std;
 
 class Register
 {
@@ -11,10 +14,10 @@ class Register
 		string name=" ";
 	
 	public:
-		Register(string n, int a)
+		Register(string n, int a);
 		string getname();
 		void setname(string);
 		int getage();
 		void setage(int);
-}
+};
 #endif
